@@ -9,7 +9,7 @@ But this code is totally determinist, which means it will always give us the sam
 
 ### Compiler optimisation 0
 Let's compile using the optimisation at level 2:
-```gcc optimisation.c -O2 -S```
+```gcc optimization.c -O2 -S```
 Then we see that the compiler simply create a variable with the value 47 and print it. This optimization could have been done by the programmer and the compiler has done it. Computer science works ! 
 
 ### Compiler optimization 1
